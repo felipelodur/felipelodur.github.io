@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://lodur.com.br</id>
+    <id>http://about.lodur.com.br</id>
     <title>Felipe Lodur</title>
-    <updated>2020-06-20T19:57:04.095Z</updated>
+    <updated>2020-06-20T19:58:15.533Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="http://lodur.com.br"/>
-    <link rel="self" href="http://lodur.com.br/atom.xml"/>
+    <link rel="alternate" href="http://about.lodur.com.br"/>
+    <link rel="self" href="http://about.lodur.com.br/atom.xml"/>
     <subtitle>Inteligência Artificial é uma habilidade necessária para os próximos anos, é díficil de pensar em alguma indústria que não será impactada pelo uso de AI.</subtitle>
-    <logo>http://lodur.com.br/images/avatar.png</logo>
-    <icon>http://lodur.com.br/favicon.ico</icon>
+    <logo>http://about.lodur.com.br/images/avatar.png</logo>
+    <icon>http://about.lodur.com.br/favicon.ico</icon>
     <rights>All rights reserved 2020, Felipe Lodur</rights>
     <entry>
         <title type="html"><![CDATA[test]]></title>
-        <id>http://lodur.com.br/post/test/</id>
-        <link href="http://lodur.com.br/post/test/">
+        <id>http://about.lodur.com.br/post/test/</id>
+        <link href="http://about.lodur.com.br/post/test/">
         </link>
         <updated>2020-06-20T08:45:25.000Z</updated>
         <content type="html"><![CDATA[<p>example</p>
