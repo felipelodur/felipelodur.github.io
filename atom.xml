@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.lodur.com.br</id>
     <title>Felipe Lodur</title>
-    <updated>2020-06-20T21:48:44.404Z</updated>
+    <updated>2020-06-22T03:07:36.591Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.lodur.com.br"/>
     <link rel="self" href="https://www.lodur.com.br/atom.xml"/>
@@ -11,12 +11,13 @@
     <icon>https://www.lodur.com.br/favicon.ico</icon>
     <rights>All rights reserved 2020, Felipe Lodur</rights>
     <entry>
-        <title type="html"><![CDATA[test]]></title>
-        <id>https://www.lodur.com.br/post/test/</id>
-        <link href="https://www.lodur.com.br/post/test/">
+        <title type="html"><![CDATA[Palestra: Overview de Deep Learning para Visão Computacional]]></title>
+        <id>https://www.lodur.com.br/post/mlxp-computer-vision/</id>
+        <link href="https://www.lodur.com.br/post/mlxp-computer-vision/">
         </link>
-        <updated>2020-06-19T21:45:25.000Z</updated>
-        <content type="html"><![CDATA[<p>example</p>
-]]></content>
+        <updated>2020-06-19T10:45:25.000Z</updated>
+        <content type="html"><![CDATA[<p>Participei recentemente de um evento chamado &quot;Machine Learning Experience&quot;, onde apresentei um resumo de Arquiteturas de Redes Neurais para Visão Computacional, além de suas respectivas aplicações!</p>
+<p>É uma passada rápida e pode ser útil para quem quer entender as aplicações de Visão Computacional e separar técnicas/arquiteturas para se aprofundar depois!</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5xeiuxtPLk8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>]]></content>
     </entry>
 </feed>
