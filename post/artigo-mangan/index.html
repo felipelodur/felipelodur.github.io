@@ -3,12 +3,12 @@
   <head>
     <meta charset="utf-8" >
 
-<title>Artigo: ManGAN | Felipe Lodur</title>
+<title>Artigo Científico: ManGAN | Felipe Lodur</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://www.lodur.com.br/favicon.ico?v=1597265124577">
+<link rel="shortcut icon" href="https://www.lodur.com.br/favicon.ico?v=1597269374254">
 <link rel="stylesheet" href="https://www.lodur.com.br/styles/main.css">
 
 
@@ -18,8 +18,8 @@
 
 
 
-    <meta name="description" content="Artigo: Assisting Colorization of Manga Characters Concept Art using Conditional GAN (Disponível no ResearchGate)
-Realiz..." />
+    <meta name="description" content="Artigo: Assisting Colorization of Manga Characters Concept Art using Conditional GAN)
+Realizei um trabalho em 2018-19, e..." />
     <meta name="keywords" content="" />
   </head>
   <body>
@@ -29,7 +29,7 @@ Realiz..." />
   <div class="top-container" data-aos="fade-right">
     <div class="top-header-container">
       <a class="site-title-container" href="https://www.lodur.com.br">
-        <img src="https://www.lodur.com.br/images/avatar.png?v=1597265124577" class="site-logo">
+        <img src="https://www.lodur.com.br/images/avatar.png?v=1597269374254" class="site-logo">
         <h1 class="site-title">Felipe Lodur</h1>
       </a>
       <div class="menu-btn" @click="menuVisible = !menuVisible">
@@ -99,31 +99,34 @@ Realiz..." />
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
           <div class="post-detail">
-            <h2 class="post-title">Artigo: ManGAN</h2>
-            <div class="post-date">2020-08-11</div>
+            <h2 class="post-title">Artigo Científico: ManGAN</h2>
+            <div class="post-date">2019-09-29</div>
             
               <div class="feature-container" style="background-image: url('https://www.lodur.com.br/post-images/artigo-mangan.jpg')">
               </div>
             
             <div class="post-content" v-pre>
-              <p>Artigo: Assisting Colorization of Manga Characters Concept Art using Conditional GAN (Disponível no <a href="https://www.researchgate.net/publication/335417624_Mangan_Assisting_Colorization_Of_Manga_Characters_Concept_Art_Using_Conditional_GAN">ResearchGate</a>)</p>
-<p>Realizei um trabalho em 2018-19, enquanto estava finalizando minha especialização no ITA e trabalhando no Itaú, e utilizei uma variação da arquitetura de Generative Adversarial Networks, chamada cGAN (a diferença sendo o &quot;c&quot; de &quot;Conditional&quot;), que dada as linhas de arte de um personagem de mangá, realiza a colorização baseando-se nas dicas de cor determinadas.</p>
+              <p><strong>Artigo:</strong> <a href="https://www.researchgate.net/publication/335417624_Mangan_Assisting_Colorization_Of_Manga_Characters_Concept_Art_Using_Conditional_GAN">Assisting Colorization of Manga Characters Concept Art using Conditional GAN</a>)</p>
+<p>Realizei um trabalho em 2018-19, enquanto estava finalizando minha especialização no ITA e trabalhando no Itaú. A ideia do trabalho era realizar a coloração automática de personagens de mangá, seguindo algumas dicas de cores.</p>
+<p>Para isso, houve todo um trabalho de coleta dos dados, pré-processamento, entre outros, mas que foi finalizado utilizando uma arquitetura chamada cGAN (Conditional Generative Adversarial Networks), que foi treinada para, dadas linhas de arte de um personagem de mangá, realizar a colorização baseando-se em <em>dicas de cor</em> determinadas, representada pela imagem abaixo:</p>
 <figure data-type="image" tabindex="1"><img src="https://www.lodur.com.br/post-images/1597264201456.png" alt="" loading="lazy"></figure>
-<p>Os resultados ficaram bem bacanas (pelo menos na minha opinião de 'artista terrível' que eu sou haha). Na imagem abaixo dá para observar que as  imagens geradas ainda saem com alguns defeitos, como erros de cor, olhos bicolores, entre outros, mas acho que é um bom resultado inicial para testar como certas cores funcionam nos personagens.</p>
+<p>Depois, o trabalho foi realizar o treinamento dessa rede. As GANs e cGANs são arquiteturas conhecidas por serem relativamente pouco estáveis, o que significa que são sucetíveis a grandes mudanças de resultado dependendo dos hiperparâmetros que são utilizados e, por isso, houve um bom trabalho em relação a tentativas de treinamento da rede até conseguir realizar o treinamento com sucesso e atingir resultados interessentes.</p>
+<p>Mas... deu certo! Os resultados ficaram bem bacanas (pelo menos na minha opinião de 'artista terrível' que eu sou haha). Na imagem abaixo dá para observar que as  imagens geradas ainda saem com alguns defeitos, como erros de cor, olhos bicolores, entre outros, mas acho que é um bom <strong>resultado inicial</strong> para testar como certas cores funcionam nos personagens, mas indica também que existem várias características que podem ser trabalhadas para ter um resultado mais detalhado futuramente.</p>
 <figure data-type="image" tabindex="2"><img src="https://www.lodur.com.br/post-images/1597264485319.png" alt="" loading="lazy"></figure>
 <h2 id="e-depois">E depois?</h2>
 <p>O trabalho foi publicado em uma conferência chamada <a href="http://2019.ieeeicip.org/">ICIP (IEEE International Conference on Image Processing 2019)</a>, uma das principais conferências da área de processamento de imagens e visão computacional (Qualis A1), que fui apresentar lá em Taipei, Taiwan!</p>
 <p>O trabalho foi feito com apoio do <strong>ITA</strong> e do <strong>Itaú Unibanco</strong>!</p>
 <figure data-type="image" tabindex="3"><img src="https://www.lodur.com.br/post-images/1597265121477.jpg" alt="" loading="lazy"></figure>
+<p>Se você quer entender mais sobre as etapas do trabalho, recomendo a leitura do artigo.</p>
 
             </div>
             
             
               <div class="next-post">
                 <div class="next">下一篇</div>
-                <a href="https://www.lodur.com.br/post/mlxp-computer-vision/">
+                <a href="https://www.lodur.com.br/post/artigo-parceria-ai-will-change-your-job/">
                   <h3 class="post-title">
-                    Palestra: Overview de Deep Learning para Visão Computacional
+                    Artigo Parceria: AI will change your job... 
                   </h3>
                 </a>
               </div>

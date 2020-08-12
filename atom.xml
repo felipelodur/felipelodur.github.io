@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.lodur.com.br</id>
     <title>Felipe Lodur</title>
-    <updated>2020-08-12T20:45:28.085Z</updated>
+    <updated>2020-08-12T21:56:17.926Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.lodur.com.br"/>
     <link rel="self" href="https://www.lodur.com.br/atom.xml"/>
@@ -11,20 +11,13 @@
     <icon>https://www.lodur.com.br/favicon.ico</icon>
     <rights>All rights reserved 2020, Felipe Lodur</rights>
     <entry>
-        <title type="html"><![CDATA[Artigo: ManGAN]]></title>
-        <id>https://www.lodur.com.br/post/artigo-mangan/</id>
-        <link href="https://www.lodur.com.br/post/artigo-mangan/">
+        <title type="html"><![CDATA[Artigo Blog: Swarm Intelligence]]></title>
+        <id>https://www.lodur.com.br/post/artigo-blog-swarm-intelligence/</id>
+        <link href="https://www.lodur.com.br/post/artigo-blog-swarm-intelligence/">
         </link>
-        <updated>2020-08-11T10:44:08.000Z</updated>
-        <content type="html"><![CDATA[<p>Artigo: Assisting Colorization of Manga Characters Concept Art using Conditional GAN (Disponível no <a href="https://www.researchgate.net/publication/335417624_Mangan_Assisting_Colorization_Of_Manga_Characters_Concept_Art_Using_Conditional_GAN">ResearchGate</a>)</p>
-<p>Realizei um trabalho em 2018-19, enquanto estava finalizando minha especialização no ITA e trabalhando no Itaú, e utilizei uma variação da arquitetura de Generative Adversarial Networks, chamada cGAN (a diferença sendo o &quot;c&quot; de &quot;Conditional&quot;), que dada as linhas de arte de um personagem de mangá, realiza a colorização baseando-se nas dicas de cor determinadas.</p>
-<figure data-type="image" tabindex="1"><img src="https://www.lodur.com.br/post-images/1597264201456.png" alt="" loading="lazy"></figure>
-<p>Os resultados ficaram bem bacanas (pelo menos na minha opinião de 'artista terrível' que eu sou haha). Na imagem abaixo dá para observar que as  imagens geradas ainda saem com alguns defeitos, como erros de cor, olhos bicolores, entre outros, mas acho que é um bom resultado inicial para testar como certas cores funcionam nos personagens.</p>
-<figure data-type="image" tabindex="2"><img src="https://www.lodur.com.br/post-images/1597264485319.png" alt="" loading="lazy"></figure>
-<h2 id="e-depois">E depois?</h2>
-<p>O trabalho foi publicado em uma conferência chamada <a href="http://2019.ieeeicip.org/">ICIP (IEEE International Conference on Image Processing 2019)</a>, uma das principais conferências da área de processamento de imagens e visão computacional (Qualis A1), que fui apresentar lá em Taipei, Taiwan!</p>
-<p>O trabalho foi feito com apoio do <strong>ITA</strong> e do <strong>Itaú Unibanco</strong>!</p>
-<figure data-type="image" tabindex="3"><img src="https://www.lodur.com.br/post-images/1597265121477.jpg" alt="" loading="lazy"></figure>
+        <updated>2020-08-11T23:53:52.000Z</updated>
+        <content type="html"><![CDATA[<p>Publiquei um artigo, para dar um pouco da visão do que é a área de Swarm Intelligence (Inteligência Coletiva), com exemplos de aplicações e linhas de pesquisa que estão sendo desenvolvidas nas universidades.</p>
+<p>Você pode conferir o artigo clicando <a href="https://medium.com/@lodur/swarm-intelligence-o-que-%C3%A9-64a0323356e2">aqui</a>.</p>
 ]]></content>
     </entry>
     <entry>
@@ -36,5 +29,35 @@
         <content type="html"><![CDATA[<p>Participei recentemente de um evento chamado &quot;Machine Learning Experience&quot;, onde apresentei um resumo de Arquiteturas de Redes Neurais para Visão Computacional, além de suas respectivas aplicações!</p>
 <p>É uma passada rápida e pode ser útil para quem quer entender as aplicações de Visão Computacional e separar técnicas/arquiteturas para se aprofundar depois!</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5xeiuxtPLk8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Artigo Científico: ManGAN]]></title>
+        <id>https://www.lodur.com.br/post/artigo-mangan/</id>
+        <link href="https://www.lodur.com.br/post/artigo-mangan/">
+        </link>
+        <updated>2019-09-30T01:44:08.000Z</updated>
+        <content type="html"><![CDATA[<p><strong>Artigo:</strong> <a href="https://www.researchgate.net/publication/335417624_Mangan_Assisting_Colorization_Of_Manga_Characters_Concept_Art_Using_Conditional_GAN">Assisting Colorization of Manga Characters Concept Art using Conditional GAN</a>)</p>
+<p>Realizei um trabalho em 2018-19, enquanto estava finalizando minha especialização no ITA e trabalhando no Itaú. A ideia do trabalho era realizar a coloração automática de personagens de mangá, seguindo algumas dicas de cores.</p>
+<p>Para isso, houve todo um trabalho de coleta dos dados, pré-processamento, entre outros, mas que foi finalizado utilizando uma arquitetura chamada cGAN (Conditional Generative Adversarial Networks), que foi treinada para, dadas linhas de arte de um personagem de mangá, realizar a colorização baseando-se em <em>dicas de cor</em> determinadas, representada pela imagem abaixo:</p>
+<figure data-type="image" tabindex="1"><img src="https://www.lodur.com.br/post-images/1597264201456.png" alt="" loading="lazy"></figure>
+<p>Depois, o trabalho foi realizar o treinamento dessa rede. As GANs e cGANs são arquiteturas conhecidas por serem relativamente pouco estáveis, o que significa que são sucetíveis a grandes mudanças de resultado dependendo dos hiperparâmetros que são utilizados e, por isso, houve um bom trabalho em relação a tentativas de treinamento da rede até conseguir realizar o treinamento com sucesso e atingir resultados interessentes.</p>
+<p>Mas... deu certo! Os resultados ficaram bem bacanas (pelo menos na minha opinião de 'artista terrível' que eu sou haha). Na imagem abaixo dá para observar que as  imagens geradas ainda saem com alguns defeitos, como erros de cor, olhos bicolores, entre outros, mas acho que é um bom <strong>resultado inicial</strong> para testar como certas cores funcionam nos personagens, mas indica também que existem várias características que podem ser trabalhadas para ter um resultado mais detalhado futuramente.</p>
+<figure data-type="image" tabindex="2"><img src="https://www.lodur.com.br/post-images/1597264485319.png" alt="" loading="lazy"></figure>
+<h2 id="e-depois">E depois?</h2>
+<p>O trabalho foi publicado em uma conferência chamada <a href="http://2019.ieeeicip.org/">ICIP (IEEE International Conference on Image Processing 2019)</a>, uma das principais conferências da área de processamento de imagens e visão computacional (Qualis A1), que fui apresentar lá em Taipei, Taiwan!</p>
+<p>O trabalho foi feito com apoio do <strong>ITA</strong> e do <strong>Itaú Unibanco</strong>!</p>
+<figure data-type="image" tabindex="3"><img src="https://www.lodur.com.br/post-images/1597265121477.jpg" alt="" loading="lazy"></figure>
+<p>Se você quer entender mais sobre as etapas do trabalho, recomendo a leitura do artigo.</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Artigo Parceria: AI will change your job... ]]></title>
+        <id>https://www.lodur.com.br/post/artigo-parceria-ai-will-change-your-job/</id>
+        <link href="https://www.lodur.com.br/post/artigo-parceria-ai-will-change-your-job/">
+        </link>
+        <updated>2018-02-21T23:49:00.000Z</updated>
+        <content type="html"><![CDATA[<p>Fui convidado para fazer um post sobre Inteligência Artificial lá no Blog da Nama, uma startup na área de Chatbots para Inteligência Artificial.</p>
+<p>Você pode conferir o texto completo em inglês <a href="https://medium.com/nama-blog/artificial-intelligence-will-change-your-job-and-the-entire-world-7e2777e6c583">aqui</a>.</p>
+]]></content>
     </entry>
 </feed>
