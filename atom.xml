@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.lodur.com.br</id>
     <title>Felipe Lodur</title>
-    <updated>2020-06-22T03:07:36.591Z</updated>
+    <updated>2020-08-12T20:35:51.828Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.lodur.com.br"/>
     <link rel="self" href="https://www.lodur.com.br/atom.xml"/>
@@ -10,6 +10,22 @@
     <logo>https://www.lodur.com.br/images/avatar.png</logo>
     <icon>https://www.lodur.com.br/favicon.ico</icon>
     <rights>All rights reserved 2020, Felipe Lodur</rights>
+    <entry>
+        <title type="html"><![CDATA[Artigo: ManGAN]]></title>
+        <id>https://www.lodur.com.br/post/artigo-mangan/</id>
+        <link href="https://www.lodur.com.br/post/artigo-mangan/">
+        </link>
+        <updated>2020-08-11T21:44:08.000Z</updated>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://www.lodur.com.br/post-images/1597263925547.png" alt="" loading="lazy"></figure>
+<p>Artigo: Assisting Colorization of Manga Characters Concept Art using Conditional GAN (Disponível no <a href="https://www.researchgate.net/publication/335417624_Mangan_Assisting_Colorization_Of_Manga_Characters_Concept_Art_Using_Conditional_GAN">ResearchGate</a>)</p>
+<p>Realizei um trabalho em 2018-19, enquanto estava finalizando minha especialização no ITA e trabalhando no Itaú, e utilizei uma variação da arquitetura de Generative Adversarial Networks, chamada cGAN (a diferença sendo o &quot;c&quot; de &quot;Conditional&quot;), que dada as linhas de arte de um personagem de mangá, realiza a colorização baseando-se nas dicas de cor determinadas.</p>
+<figure data-type="image" tabindex="2"><img src="https://www.lodur.com.br/post-images/1597264201456.png" alt="" loading="lazy"></figure>
+<p>Os resultados ficaram bem bacanas (pelo menos na minha opinião de 'artista terrível' que eu sou haha)</p>
+<figure data-type="image" tabindex="3"><img src="https://www.lodur.com.br/post-images/1597264485319.png" alt="" loading="lazy"></figure>
+<p>E o trabalho foi publicado em uma conferência chamada ICIP (IEEE International Conference on Image Processing 2020), uma das principais conferências da área de processamento de imagens e visão computacional (Qualis A1), que fui apresentar lá em Taipei, Taiwan!</p>
+<figure data-type="image" tabindex="4"><img src="https://www.lodur.com.br/post-images/1597264172383.jpg" alt="" loading="lazy"></figure>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Palestra: Overview de Deep Learning para Visão Computacional]]></title>
         <id>https://www.lodur.com.br/post/mlxp-computer-vision/</id>
